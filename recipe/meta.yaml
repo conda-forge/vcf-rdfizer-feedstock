@@ -1,5 +1,5 @@
 {% set name = "vcf-rdfizer" %}
-{% set version = "3.3.1" %}
+{% set version = "3.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ecrum19/VCF-RDFizer/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 873a8cda3b495bc96dfc7342a7d531baff527e55e3a1d15bf9038aeb9f6c4172
+  sha256: a55cb2f1d1ad67b5bbd67a478f081424f0aa476c4523ec80c49e980825ee6f81
 
 build:
   noarch: python
